@@ -7,29 +7,55 @@
 - Data visualizations are important tools for communication and convincing; we need to be able to evaluate the ways that data are presented in visual form to be critical consumers of information 
 - To test your evaluation skills, locate two public data visualizations online, one good and one bad  
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
-- For each visualization (good and bad):  
-    - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
-      ```
-      Your answer...
+<h3>Bad</h3>
+
+- Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
+
+      https://public.tableau.com/app/profile/jared.braggins2936/viz/JobHistory_15568444434680/Skills_Dashboard
+
+      I feel the above public data visualization (Soft Skills for the Win? by Jared Braggins) is a bad data visualization.
+      At first glance, it looks like a jumbled mess of lines.  While the intention is to get the reader to hover on each line to explore the skill the author has developed over the years, aesthetically it is not very pleasing.  Especially considering the materials presented are a resume, which usually does not call for a complicated visualization.  
+      
+      The main goal of showing off his skills is not achieved, because the text showing the skills are not present by default.  Thus the reader cannot see any of his skills before hovering, and they may not get to that point.  That is not perceptual. 
+      
+      There are way too many lines to show the information.  It seems like he is trying to link each skill from one job to all other jobs that use the same skill.  It is an unnecessary information overload.  It is almost as if the author is trying to magnify his skills by making an overly complicated visualization, which will not be substantive.  
+     
+
+- How could this data visualization have been improved?  
+
+     ```
+     An improvement that may be made is to use the same color for each skill (e.g. time management), and put a legend of what that color means with the name of the skill at the bottom of the graph.  This way at least the reader knows immediately what skills he has, and can identify when he started to develop those skills and how many jobs he has experience with a particular skill.  
+
+     Secondly, a dropdown list that correspond to all the skills he has.  The dropdown list allows the reader to select one particular skill, and uponj selection will highlight all experiences/lines related to the skill, while muting the other lines.  
+    
+    Similar to the above dropdown list, there can be another dropdown list that correspond to all the jobs he had, and upon selecting a job will highlight all the skills related to that job while muting the other lines.
+
+     All of these will help to show the skills the author has to the audience more clearly.
+     ```
 
 
+<h3>Good</h3>
 
-
-
-
-
-      ```
-    - How could this data visualization have been improved?  
-      ```
-      Your answer...
-
-
-
-
-
+- Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
 
       
-      ```
+      https://public.tableau.com/app/profile/bkornell/viz/BostonWomenVoters/BostonWomenVoters
+
+      This visualization (Boston Women Voters by Branden Kornell) is mostly black and white, and only uses colors to show the intended data.  The big title at the top clearly states the intention of the viz.    The author uses horizontal bar graphs to show percentages of various stats like birth country, occupation, and marital status.  A map is used to show where the voters are located.  These familiar and intuitive chart types contribute to the aesthetic of the viz.  
+
+      All the bar graph breakdowns add up to 100%, and the actual number of votes for each category is shown when hoevered over the bar.  On the map, each individual voter is plotted at the (assumed) home address.  By hovering over the marker of the voter, it shows the name, address and other details of the voter.  The clear data makes it very traceable.  These contribute to the substantive quality of the viz.
+
+      The main message of the visualization is to show that thousands of women from all walks of life were registered to vote in 1920.  The graphs achieved this by showing the variety of birth countries, marital status, occupation and locations of the voters.  This satisfies the perceptual requirement.
+     
+- Improvement:
+
+      An improvement that can be made is the ability to zoom in on the map.  There are way too many voter markers to be able to click on each individually in dense area.  
+
+      Another improvement is perhaps use pie charts instead of bar graphs to present the breakdown of demographic data.  A pie chart may show the relative proportion of each group more clearly.  
+
+    
+
+
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
