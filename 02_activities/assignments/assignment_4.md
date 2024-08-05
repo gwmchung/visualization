@@ -5,25 +5,82 @@
 ### Requirements:
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
-- Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
-- For each visualization, describe and justify: 
+- Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.
+ For visualization shown in the "dangerous_dog_viz1" jupyter notebook, 
     > What software did you use to create your data visualization?
+    Python was used along with the panda and seaborn libraries.
 
     > Who is your intended audience? 
     
+    Anyone interested in knowing how many dog bite incidents are reported in Toronto.
+    
     > What information or message are you trying to convey with your visualization? 
+    
+    The number of dog bite incidents isn't that high for a big city like Toronto.
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
     
+    I believe my visualization is substantive, as it accurately and honestly showed the number of dog bite incidents per month during the specified period.  I have chosen a histogram to show this information because I believe it is familiar to most people and shows the data most clearly.  
+
+    I also took into consideration of the aesthetic, by making sure the x-axis tick labels are rotated 90 degrees and with a bigger font size so they are legible.  
+    
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+    My code is well-documented.  Because I only took a subset of the data available from the data source, I have clearly commented that in the code, and also explained how we converted the original exact dates (from the column Date_of_Dangerous_Act) to the month and year formatted dates for easy aggregation.
     
     > How did you ensure that your data visualization is accessible?  
+
+    I made sure the colors of the bars and the color of the bars and the edge color are a good contrast, so that it is accessible to most people.  I also made sure the font size are big enough. 
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+
+    I hope the visualization will bring awareness to dog owners that dog bite incidents happen more in the summer, so that they will be more mindful when taking their dogs out.  
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+    I wanted to see if the time of the year affects the number of dog bite incidents, so naturally I was looking at the date column.  But I needed to aggregate the counts for easier visualization.  
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+
+    For the people who reported the incidents and those who kept track of the data and summarize them in the CSV file.  
+
+- For the Power BI visualization shown in dangerous_dog_viz2 PowerBI file and in dangerous_dog_viz2.pdf: 
+    > What software did you use to create your data visualization?
+
+    The software I use is Power BI desktop.  
+
+    > Who is your intended audience? 
+
+    My intended audience is people who are considering getting a dog as a pet.  
+    
+    > What information or message are you trying to convey with your visualization? 
+
+    I would like to show that certain dog breeds are indeed more agressive and will cause biting incidents.  
+    
+    > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+
+    I have chosen to use a treemap to show the distribution of dog breeds relative to the number of dog bite incidents.  The relative size that is used by each color of the breed shows clearly the relative number of incidents each breed is associated with.  That is perceptual.  And by hovering over each of the box, it shows the number of incidents and severity of the incident, which is substantive.  
+
+    
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+    It is not reproduceable since it is created with Power BI.  It may impact the substantiveness of the visual.  However, since the data source is public, it may allow some kind of reproduceability.  
+    
+    > How did you ensure that your data visualization is accessible?  
+
+    The colors of each block and the neighbouring blocks are a good contrast.  
+    
+    > Who are the individuals and communities who might be impacted by your visualization?  
+
+    Potential dog owners who are looking for a dog may reconsider their decision for a breed, if that breed is shown with a large number of incidents.  
+    
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+    Since I mostly want to show which breeds are more agressive, other information such as the date and location are excluded from the viz.  I am mostly interested in the aggregated count of each breed and also grouping by the severity of the incident, that's why those are the columns used.  
+    
+    > What ‘underwater labour’ contributed to your final data visualization product?
+
+    For the people who reported the incidents and those who kept track of the data and summarize them in the CSV file.  
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
